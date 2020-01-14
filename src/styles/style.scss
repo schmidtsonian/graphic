@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+
+
+
 .graphic {
   width: 100vw;
   height: 100vh;
@@ -94,9 +97,8 @@ $grey: #434344;
 
 
 .text {
-  font-family:'AkzidGrtskNext-Regular';
   font-size:49px;
-  y: 10;
+  font-family:"AkzidGrtskNext-Regular";
 }
 
 .text--orange,

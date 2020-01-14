@@ -31,7 +31,7 @@ tl
   .staggerTo('.circle-blue-3', 2, {scale: 0.85, yoyo: true, repeat: -1}, 0.01)
 
   .staggerFromTo('.circle-grey', 1, circleFrom, circleTo, 0.01, 4.5)
-  .staggerTo('.circle-blue-grey', 2, {scale: 0.85, yoyo: true, repeat: -1}, 0.01)
+  .staggerTo('.circle-grey', 2, {scale: 0.85, yoyo: true, repeat: -1}, 0.01)
 
 
   ;
