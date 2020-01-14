@@ -59,9 +59,9 @@ gsap.set(
 );
 const tl2 = gsap.timeline();
   tl2
-    .staggerFromTo('.connection-orange-a', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 1.1)
-    .staggerFromTo('.connection-orange-b', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 2.1)
-    .staggerFromTo('.connection-blue-a', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 3.1)
-    .staggerFromTo('.connection-blue-b', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 4.1)
-    .staggerFromTo('.connection-blue-c', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 4.6)
-    .staggerFromTo('.connection-grey', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 5.1)
+    .staggerFromTo('.connection-orange-a', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 3.1)
+    .staggerFromTo('.connection-orange-b', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 4.1)
+    .staggerFromTo('.connection-blue-a', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 4.6)
+    .staggerFromTo('.connection-blue-b', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 5.1)
+    .staggerFromTo('.connection-blue-c', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 5.6)
+    .staggerFromTo('.connection-grey', 1, {strokeDashoffset:dashOffsetFrom}, {strokeDashoffset:0}, 0.05, 6.1)
